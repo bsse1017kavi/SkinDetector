@@ -9,6 +9,7 @@ public class Main
     {
         Trainer trainer = new Trainer();
         trainer.initialize();
+        trainer.test_generator();
         trainer.train();
 
         Tester tester = new Tester();
